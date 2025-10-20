@@ -1,0 +1,25 @@
+h1 {
+    border-bottom: 5px solid crimson;
+    text-align: center;
+    padding: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+img {
+    border: 3px solid white;
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
