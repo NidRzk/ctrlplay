@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #003459;
+    font-family: "Alan Sans", sans-serif;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+header li:not(:last-of-type) {
+    margin-right: 15px;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+header {
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    background-color: #00A8E8;
+    border-bottom: #00171F solid 3px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+img {
+    height: 220px;
+    border-radius: 50%
+
+}
+
+#sobre {
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color:#00A8E8 ;
+}
+
+.pd2 {
+    color: whitesmoke;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #00171F;
+    border-radius: 15px;
+}
+
+.Sobremim {
+    margin-top: 30px;
+}
+
+.skill {
+    width: 64px;
+    height: auto;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.container {
+    display: flex;
+
+    /* Determina a direção em que os elementos serão dispostos */
+    /* column ( coluna ) - row ( linha ) */
+    flex-direction: row;
+
+    /* 'Derruba' os elementos se faltar espaço */
+    flex-wrap: wrap;
+
+    /* Facilita a escrita da direção e o wrap */
+    flex-flow: row wrap;
+
+    /* Indica como os elementos serão alinhados horizontalmente */
+    /* Mais comuns: space-between, space-around, space-evenly e center */
+    justify-content: center;
+
+    /* Alinhamento vertical dos filhos */
+    /* flex-end, flex-start, stretch e baseline */
+    align-items: center;
+
+    /* Semelhante ao align-items, mas organiza verticalmente em relação ás linhas */
+    align-content:
+}

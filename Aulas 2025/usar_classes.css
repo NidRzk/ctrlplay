@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    background-color: rgb(91, 31, 91);
+    color: white;
+}
+
+#cabecalho {
+    background-color: grey;
+    padding: 20px;
+}
